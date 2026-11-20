@@ -1,0 +1,14 @@
+# @local/dsh-book-loom bundle patch layer.
+- insert:
+    - id: dsh-book-loom
+      name: "@local/dsh-book-loom"
+      config:
+        enabled: true
+        dataDirectory: ".dsh_book_loom"
+        maxBookBytes: 104857600
+        maxRequestBytes: 110100480
+        defaultProgressiveReveal: true
+        retainOriginalFile: false
+        analysisConcurrency: 2
+        similarityThreshold: 0.22
+        maxGraphNodes: 500
